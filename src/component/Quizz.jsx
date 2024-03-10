@@ -9,13 +9,15 @@ function Quizz() {
 
 
     const handleOption = (index) =>{
-        
-            // console.log("checking");
-            setSelectOption(index)
-            if(data[currentNumber].answer === index.toString()){
-                // console.log("correct");
-                setScore(score+1)
-            }
+        if(selectOption === null){
+             // console.log("checking");
+             setSelectOption(index)
+             if(data[currentNumber].answer === index.toString()){
+                 // console.log("correct");
+                 setScore(score+1)
+             }
+        }
+           
     }
 
     const handleNext = () =>{
