@@ -31,7 +31,7 @@ function Quizz() {
     <>
         <div style={{width:'100%', height:'100vh'}} className='d-flex justify-content-center align-items-center flex-column bg-primary '>
         <div className='bg-light mb-5 rounded p-1'>
-            <h1 className='text-center dw-bold'>Quizz App</h1>
+            <h1 className='text-center dw-bold'>Quiz App</h1>
         </div>
         <div style={{width:'700px'}} className='p-5 bg-warning rounded text-center'>
             { !result ? (
